@@ -28,22 +28,22 @@ public class MainActivity extends AppCompatActivity {
         float total = 0F;
 
         // Verifica se o item esta preenchido
-        if(item1.isChecked()){
+        if (item1.isChecked()) {
             // Sumariza o valor do item 1
             total += Float.parseFloat(item1.getText().toString());
         }
-        if(item2.isChecked()){
+        if (item2.isChecked()) {
             total += Float.parseFloat(item2.getText().toString());
         }
-        if(item3.isChecked()){
+        if (item3.isChecked()) {
             total += Float.parseFloat(item3.getText().toString());
         }
 
         String mensagem;
         // Exibe diferentes mensagens de acordo com criterio
-        if(total == 0){
+        if (total == 0) {
             mensagem = "Por favor, selecione pelo menos um item!";
-        }else{
+        } else {
             mensagem = "Valor total do Pedido: R$" + total;
         }
 

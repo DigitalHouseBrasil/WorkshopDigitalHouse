@@ -13,6 +13,6 @@
     <color name="rosa">#b4283c</color>
     <color name="branco">#FFFFFF</color>
 
-    <color name="corDoTexto">@color/branco</color>
+    <color name="corDoTexto">@color/chumbo</color>
 
 </resources>
