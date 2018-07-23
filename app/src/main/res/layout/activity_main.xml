@@ -117,7 +117,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:backgroundTint="@color/branco"
-        android:onClick="finalizarPedido"
         android:text="finalizar pedido"
         android:textColor="@color/chumbo"
         app:layout_constraintBottom_toBottomOf="parent"
